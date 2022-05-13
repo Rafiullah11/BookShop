@@ -27,19 +27,32 @@ namespace WebBookShop.Controllers
         }
 
         // GET: CategoryController/Create
-        public ActionResult Create()
+        public ActionResult Create(int? id)
         {
-            return View();
+            var get = _db.Categories.Find(id);
+            return View(get);
         }
 
         // POST: CategoryController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Category model)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (model.Name==model.DisplayOrder.ToString())
+                {
+                    ModelState.AddModelError("name", "Name and Oder will not be matched");
+                }
+                if (ModelState.IsValid)
+                {
+                _db.Categories.Add(model);
+                _db.SaveChanges();
+                TempData["success"] = "Data Created successfully";
+
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(model);
             }
             catch
             {
@@ -48,19 +61,39 @@ namespace WebBookShop.Controllers
         }
 
         // GET: CategoryController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(int? id)
         {
-            return View();
+            var category = _db.Categories.Find(id);
+            if (category != null)
+            {
+                return View(category);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
 
         // POST: CategoryController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Category model)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (model.Name == model.DisplayOrder.ToString())
+                {
+                    ModelState.AddModelError("name", "Name and Oder will not be matched");
+                }
+                if (ModelState.IsValid)
+                {
+                    _db.Categories.Update(model);
+                    _db.SaveChanges();
+                    TempData["success"] = "Data Updated successfully";
+
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(model);
             }
             catch
             {
@@ -71,17 +104,30 @@ namespace WebBookShop.Controllers
         // GET: CategoryController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+
+            var category = _db.Categories.Find(id);
+            if (category != null)
+            {
+               
+                return View(category);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
 
         // POST: CategoryController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, Category model)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                    _db.Categories.Remove(model);
+                    _db.SaveChanges();
+                TempData["success"]= "Data deleted successfully";
+                    return RedirectToAction(nameof(Index));
             }
             catch
             {
