@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BookShop.DataAccessLayer;
+using BookShop.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebBookShop.Data;
-using WebBookShop.Models;
+
 
 namespace WebBookShop.Controllers
 {

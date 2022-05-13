@@ -1,0 +1,12 @@
+E:\GitHubBookStore\BookShop\BookShop.Utilities\bin\Debug\net6.0\BookShop.Utilities.deps.json
+E:\GitHubBookStore\BookShop\BookShop.Utilities\bin\Debug\net6.0\BookShop.Utilities.dll
+E:\GitHubBookStore\BookShop\BookShop.Utilities\bin\Debug\net6.0\BookShop.Utilities.pdb
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\BookShop.Utilities.csproj.AssemblyReference.cache
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\BookShop.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\BookShop.Utilities.AssemblyInfoInputs.cache
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\BookShop.Utilities.AssemblyInfo.cs
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\BookShop.Utilities.csproj.CoreCompileInputs.cache
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\BookShop.Utilities.dll
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\refint\BookShop.Utilities.dll
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\BookShop.Utilities.pdb
+E:\GitHubBookStore\BookShop\BookShop.Utilities\obj\Debug\net6.0\ref\BookShop.Utilities.dll

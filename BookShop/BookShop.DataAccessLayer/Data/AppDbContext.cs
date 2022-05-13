@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using WebBookShop.Models;
+﻿using BookShop.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace WebBookShop.Data
+namespace BookShop.DataAccessLayer
 {
     public class AppDbContext:DbContext
     {

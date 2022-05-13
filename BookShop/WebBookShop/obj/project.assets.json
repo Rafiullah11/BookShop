@@ -3186,6 +3186,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BookShop.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookShop.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5"
+        },
+        "compile": {
+          "bin/placeholder/BookShop.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.DataAccessLayer.dll": {}
+        }
+      },
+      "BookShop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookShop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.Models.dll": {}
+        }
       }
     }
   },
@@ -9844,10 +9870,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BookShop.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.DataAccessLayer/BookShop.DataAccessLayer.csproj",
+      "msbuildProject": "../BookShop.DataAccessLayer/BookShop.DataAccessLayer.csproj"
+    },
+    "BookShop.Models/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.Models/BookShop.Models.csproj",
+      "msbuildProject": "../BookShop.Models/BookShop.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookShop.DataAccessLayer >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.5",
       "Microsoft.EntityFrameworkCore >= 6.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.5",
@@ -9882,7 +9919,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\GitHubBookStore\\BookShop\\BookShop.DataAccessLayer\\BookShop.DataAccessLayer.csproj": {
+              "projectPath": "E:\\GitHubBookStore\\BookShop\\BookShop.DataAccessLayer\\BookShop.DataAccessLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

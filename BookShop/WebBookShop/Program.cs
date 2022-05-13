@@ -1,5 +1,5 @@
+using BookShop.DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
-using WebBookShop.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

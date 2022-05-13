@@ -1,0 +1,17 @@
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.csproj.AssemblyReference.cache
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.AssemblyInfoInputs.cache
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.AssemblyInfo.cs
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\bin\Debug\net6.0\BookShop.DataAccessLayer.deps.json
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\bin\Debug\net6.0\BookShop.DataAccessLayer.runtimeconfig.json
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\bin\Debug\net6.0\BookShop.DataAccessLayer.dll
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\bin\Debug\net6.0\BookShop.DataAccessLayer.pdb
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\bin\Debug\net6.0\BookShop.Models.dll
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\bin\Debug\net6.0\BookShop.Models.pdb
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.csproj.CopyComplete
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.dll
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\refint\BookShop.DataAccessLayer.dll
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.pdb
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\BookShop.DataAccessLayer.genruntimeconfig.cache
+E:\GitHubBookStore\BookShop\BookShop.DataAccessLayer\obj\Debug\net6.0\ref\BookShop.DataAccessLayer.dll
